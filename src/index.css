@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+
+/* Fonts */
+h4,
+button,
+span,
+p,
+a:not(.header-icon-link) {
+  font-family: "Ubuntu";
+}
+
+h2,
+h3,
+input {
+  font-family: "DynaPuff";
+}
